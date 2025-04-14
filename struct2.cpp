@@ -8,15 +8,16 @@ struct player {
     string level;
 };
 
+
 int main(){
     player pl;
 
     cout << "masukan nama player= " ;
     getline(cin,pl.name);
     cout << "masukan id= ";
-    getline(cin,pl.id);
+    cin >> pl.id;
     cout << "masukan level= " ;
-    getline (cin, pl.level);
+    cin  >> pl.level;
 
     cout << "tampilkan player" << endl;
     cout << "nama player=" << pl.name << endl;
