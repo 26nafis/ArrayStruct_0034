@@ -41,6 +41,4 @@ int main(){
         cout << "nama weapone=" << pl[i].weapone.name << endl;
             cout << "damage weapone" << pl[i].weapone.damage << endl;
     }
-   
-
 }
