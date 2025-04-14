@@ -11,11 +11,27 @@ string nama[5]={"ben" , "agus" , "fara" , "ama" , "akila"};
 float score[5];
 
 int main(){
-    cout << "nama pada index 4 adalah " << nama[4] << endl;
+    cout << "nama pada index 2 adalah " << nama[2] << endl;
     // memberi nilai pada elemen array dengan index
     nama[4]= "nafis";
-    cout << "nama pada index 4 adalah " << nama[4] << endl;
+    cout << "nama pada index 2 adalah " << nama[2] << endl;
     
-    // memberi nilai nilai array dengan loopinf for 
+    cout << "inputscore" << endl;
+    cout << endl;
+
+    // memberi nilai nilai array dengan looping for
+    for(int i = 0; i<5; i++) {
+        cout << "score ke-" << i+1 << " =";
+        cin >> score[i];
+    }
+    cout << "tampilkan skor" << endl;
+    cout << endl;
+
+    // memberi nilai nilai array dengan looping for
+    for(int i = 0; i<5; i++) {
+        cout << "score ke-" << i+1 << " =" <<score[1] << endl;
+        
+    }
+
 }
 
