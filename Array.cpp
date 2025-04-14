@@ -10,3 +10,12 @@ string nama[5]={"ben" , "agus" , "fara" , "ama" , "akila"};
 // mmendeklarasikan array dengan ukuran dan tanpa nilai awal
 float score[5];
 
+int main(){
+    cout << "nama pada index 4 adalah " << nama[4] << endl;
+    // memberi nilai pada elemen array dengan index
+    nama[4]= "nafis";
+    cout << "nama pada index 4 adalah " << nama[4] << endl;
+    
+    // memberi nilai nilai array dengan loopinf for 
+}
+
